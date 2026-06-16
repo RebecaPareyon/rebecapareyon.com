@@ -92,7 +92,7 @@ export default function Impact() {
 
               {/* Card Footer - Trend badge */}
               <div className={`pt-3 border-t flex items-center justify-between text-[11px] font-mono ${idx === 3 ? "border-white/10" : "border-black/5"}`}>
-                <span className={idx === 3 ? "text-gray-400" : "text-gray-600"}>Resultado verificado</span>
+                <span className={idx === 3 ? "text-gray-400" : "text-gray-600"}>Resultado </span>
                 <span className={`font-extrabold flex items-center gap-0.5 ${idx === 3 ? "text-[#DFFF5E]" : "text-purple-700"}`}>
                   <ChevronUp className="h-3 w-3" />
                   {metric.trend}
