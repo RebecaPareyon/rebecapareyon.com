@@ -17,7 +17,7 @@ export default function Hero({ onOpenBooking, onOpenCV, portraitPath }: HeroProp
 
   const floatingBadges = [
     { text: "✓ Product Strategy", pos: "top-4 -left-12 md:-left-16", color: "bg-white border-gray-200 text-[#111111] font-bold shadow-md", delay: 0 },
-    { text: "✓ Product Discovery", pos: "top-28 -right-8 md:-right-12", color: "bg-white border-gray-200 text-[#111111] font-bold shadow-md", delay: 1 },
+    { text: "✓ Product Discovery", pos: "top-4 right-0 md:right-4", color: "bg-white border-gray-200 text-[#111111] font-bold shadow-md", delay: 1 },
     { text: "✓ Roadmapping", pos: "top-1/3 -right-12 md:-right-16", color: "bg-white border-gray-200 text-[#111111] font-bold shadow-md", delay: 0.5 },
     { text: "✓ Fintech Expert", pos: "bottom-1/3 -left-8 md:-left-12", color: "bg-white border-gray-200 text-[#111111] font-bold shadow-md", delay: 1.5 },
     { text: "✓ Agile Delivery", pos: "bottom-4 -right-10 md:-right-14", color: "bg-white border-gray-200 text-[#111111] font-bold shadow-md", delay: 0.8 },
