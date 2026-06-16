@@ -12,13 +12,14 @@ import Footer from "./components/Footer";
 import MeetingModal from "./components/MeetingModal";
 import CVModal from "./components/CVModal";
 import portraitImage from "./assets/images/rebeca_portrait_1780958067690.png";
+import heroImage from "./assets/images/rebeca-hero.png";
 
 export default function App() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
   const [isCVOpen, setIsCVOpen] = useState(false);
 
   // References to our generated assets
-  const portraitPath = portraitImage;
+  const portraitPath = heroImage;
 
   const handleOpenBooking = () => {
     window.open("https://calendar.app.google/PbUj2akPXhnNKP7u7", "_blank", "noopener,noreferrer");
