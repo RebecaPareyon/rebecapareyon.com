@@ -45,13 +45,13 @@ export default function Impact() {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-900/10 px-3 py-1 text-xs font-bold text-slate-900">
             <TrendingUp className="h-3 w-3" />
-            Impacto que trasciende
+            Aportando valor al negocio y al usuario
           </span>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold tracking-tight text-[#111111]">
-            ¿Por qué trabajar conmigo?
+            El impacto de un producto se mide en resultados
           </h2>
           <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed">
-            No mido el éxito por líneas de código o reuniones asistidas, sino por metas de negocio alcanzadas, fricción eliminada para el usuario e incremento tangible en ingresos y retención.
+            No mido el éxito por líneas de código o reuniones asistidas, sino por objetivos de negocio alcanzados, la eliminación de fricción para el usuario y un impacto tangible en los ingresos y la retención.
           </p>
         </div>
 
