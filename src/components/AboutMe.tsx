@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { BookOpen, User, Sparkles, ChevronDown } from "lucide-react";
+import aboutImage from "../assets/images/rebeca-about.png";
 
 interface AboutMeProps {
   portraitPath: string;
@@ -52,7 +53,7 @@ export default function AboutMe({ portraitPath }: AboutMeProps) {
               
               <div className="relative w-72 h-85 rounded-2xl overflow-hidden border-2 border-gray-200 bg-white shadow-2xl">
                 <img
-                  src={portraitPath}
+                  src={aboutImage}
                   alt="Rebeca Pareyon - About Section Closeup Portrait"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover opacity-95 hover:opacity-100 transition-all duration-700 font-sans"
